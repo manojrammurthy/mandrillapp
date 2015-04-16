@@ -5,7 +5,7 @@ $email = $_POST['email'];
 function sendmail($name,$email,$tempname){
 include_once "vendor/autoload.php";
 try {
-    $mandrill = new Mandrill('2yWLAJ5-ZNKKKK-TTQ52ow');
+    $mandrill = new Mandrill('');
     $template_name = $tempname;
     $template_content = array(
         array(
