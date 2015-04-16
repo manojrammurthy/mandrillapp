@@ -2,7 +2,7 @@
 <?php
 include_once "vendor/autoload.php";
 try {
-$mandrill = new Mandrill('2yWLAJ5-ZNKKKK-TTQ52ow');
+$mandrill = new Mandrill('');
 $fname = 'manoj';
 $lname = 'kumar';
 $email = 'manrox.drag@gmail.com';
